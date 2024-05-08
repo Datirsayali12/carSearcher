@@ -13,7 +13,7 @@ class Location(models.Model):
 # Create your models here.
 class Profile(models.Model):
     user=models.OneToOneField(User,on_delete=models.CASCADE)
-    photo=models.ImageField(upload_to=user_directory_path,null=True)
+    photo=models.ImageField(upload_to=user_directory_path,null=True, default='userlogo.jpg')
     bio=models.CharField(max_length=100,blank=True)
     phone_number=models.CharField(max_length=12,blank=True)
     location=models.OneToOneField(Location,on_delete=models.SET_NULL,null=True)
