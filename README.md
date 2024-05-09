@@ -50,6 +50,7 @@ Include some screenshots here to give a visual overview of the project.
     ```
 3. Run migrations:
     ```
+    python manage.py makemigrations
     python manage.py migrate
     ```
 4. Start the development server:
