@@ -6,23 +6,38 @@ CarConnect is a Django project designed to facilitate car listing and connecting
 ## Screenshots
 Include some screenshots here to give a visual overview of the project. 
 
-### Home Page
-![Home Page](screenshots/home.png)
+<div style="display: flex; flex-direction: row;">
+    <div style="margin-right: 20px;">
+        <img src="screenshots/home.png" alt="Home Page" width="400"/>
+        <p style="text-align: center;">Home Page</p>
+    </div>
+    <div>
+        <img src="screenshots/login.png" alt="Login Page" width="400"/>
+        <p style="text-align: center;">Login Page</p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: row;">
+    <div style="margin-right: 20px;">
+        <img src="screenshots/register.png" alt="Home Page" width="400"/>
+        <p style="text-align: center;">SignUp</p>
+    </div>
+    <div>
+        <img src="screenshots/list.png" alt="Login Page" width="400"/>
+        <p style="text-align: center;">Car Listing</p>
+    </div>
+</div>
 
-### Login Page
-![Login Page](screenshots/login.png)
+<div style="display: flex; flex-direction: row;">
+    <div style="margin-right: 20px;">
+        <img src="screenshots/profile.png" alt="Home Page" width="400"/>
+        <p style="text-align: center;">Profile</p>
+    </div>
+    <div>
+        <img src="screenshots/list_form.png" alt="Login Page" width="400"/>
+        <p style="text-align: center;">Car List form</p>
+    </div>
+</div>
 
-### Signup Page
-![Signup Page](screenshots/register.png)
-
-### Car Listing Page
-![Car Listing Page](screenshots/list.png)
-
-### User Profile Page
-![User Profile Page](screenshots/profile.png)
-
-### Car Listing Form
-![Car Listing Form](screenshots/list_form.png)
 
 ## Installation
 1. Clone the repository:
