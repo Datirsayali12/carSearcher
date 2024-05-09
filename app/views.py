@@ -24,7 +24,7 @@ def login_home(request):
     user_liked_listings = LikedListing.objects.filter(
         profile=request.user.profile).values_list('listing')
     liked_listings_ids = [l[0] for l in user_liked_listings]
-    return render(request,'app/login_home.html',{'listing_filter':listing_filter, 'liked_listings_ids': liked_listings_ids})
+    return render(request,'app/login_home.html',{'listing_filter':listing_filter, 'liked_listings_ids': liked_listings_ids,'user': request.user})
 
 def list_view(request):
     if request.method=="POST":
